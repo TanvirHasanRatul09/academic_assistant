@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: academic_assistant
+      POSTGRES_USER: academic_app
+      POSTGRES_PASSWORD: local-development-only
+    ports:
+      - "127.0.0.1:5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U academic_app -d academic_assistant"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - academic_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  academic_postgres_data:
+

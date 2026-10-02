@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Academic Assistant">
+  <rect width="512" height="512" fill="#0a101c"/>
+  <rect x="76" y="76" width="360" height="360" rx="96" fill="#132136"/>
+  <path d="M135 190 256 129l121 61-121 60-121-60Z" fill="#45c7b8"/>
+  <path d="M170 240v84c43 36 129 36 172 0v-84l-86 43-86-43Z" fill="#edf3fa"/>
+  <circle cx="361" cy="340" r="29" fill="#e9ad4b"/>
+  <path d="m348 340 9 9 18-21" fill="none" stroke="#07171a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

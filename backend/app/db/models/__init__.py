@@ -1,0 +1,41 @@
+"""Database models begin in Milestone 2."""
+
+from app.db.models.entities import (
+    AcademicEvent,
+    AuditEvent,
+    ClassroomItem,
+    Course,
+    CourseMembership,
+    EventTarget,
+    EventType,
+    Notification,
+    OAuthAccount,
+    OnboardingState,
+    PersonalTask,
+    SourceType,
+    SyncRun,
+    User,
+    UserProfile,
+    UserSession,
+    UserTask,
+)
+
+__all__ = [
+    "AcademicEvent",
+    "AuditEvent",
+    "ClassroomItem",
+    "Course",
+    "CourseMembership",
+    "EventTarget",
+    "EventType",
+    "Notification",
+    "PersonalTask",
+    "OAuthAccount",
+    "OnboardingState",
+    "SourceType",
+    "SyncRun",
+    "User",
+    "UserProfile",
+    "UserSession",
+    "UserTask",
+]

@@ -1,0 +1,56 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.egg-info/
+
+# Databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Frontend
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Credentials
+oauth-token*.json
+credentials*.json
+service-account*.json
+*.pem
+*.key
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+
+# Private local development roadmap
+FRONTEND-DEVELOPMENT-TASKS.md
+academic-assistant-development-tasks.md
+fix.md
+ASSISTANT-MARKS-MANUAL-TASKS-PLAN.md
+
+# Private local frontend planning and audits
+docs/frontend-f*-*.md
+docs/frontend-milestone-F*-audit.md
